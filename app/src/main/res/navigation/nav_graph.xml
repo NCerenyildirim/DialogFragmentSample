@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/messageFragment">
+
+
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.example.diaglogfragmentsample.MessageFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" >
+        <action
+            android:id="@+id/action_messageFragment_to_dialogFrament2"
+            app:destination="@id/dialogFrament" />
+        <action
+            android:id="@+id/action_messageFragment_to_loginActivity2"
+            app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/action_messageFragment_to_nav_start"
+            app:destination="@id/nav_start" />
+        <action
+            android:id="@+id/action_messageFragment_to_actiontoAction"
+            app:destination="@id/actiontoAction" />
+    </fragment>
+    <dialog
+        android:id="@+id/dialogFrament"
+        android:name="com.example.diaglogfragmentsample.DialogFrament"
+        android:label="DialogFrament" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.diaglogfragmentsample.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" >
+        <argument
+            android:name="user"
+            app:argType="string"
+            android:defaultValue="bos" />
+    </activity>
+    <include app:graph="@navigation/nav_start" />
+    <fragment
+        android:id="@+id/actiontoAction"
+        android:name="com.example.diaglogfragmentsample.ActiontoAction"
+        android:label="fragment_actionto_action"
+        tools:layout="@layout/fragment_actionto_action" >
+        <argument
+            android:name="mynumber"
+            app:argType="integer"
+            />
+    </fragment>
+</navigation>
