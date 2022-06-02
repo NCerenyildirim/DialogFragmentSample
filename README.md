@@ -9,7 +9,7 @@ In this application, the use of dialog fragments, navigationtonavigation and tra
 
 2)Fragment to Dialog Fragment
 
-![dialog](https://user-images.githubusercontent.com/103643989/171754704-f0dd12fc-f68b-49d9-9ff3-77e543c99b66.gif)
+![device-2022-06-03-023802](https://user-images.githubusercontent.com/103643989/171756984-f903b208-643e-43d2-ba55-9d2f4cbab31b.gif)
 
 
 3)Action to Action
