@@ -4,7 +4,7 @@ In this application, the use of dialog fragments, navigationtonavigation and tra
 
 1) Fragment to Login Screen
 
-![login](https://user-images.githubusercontent.com/103643989/171754487-7d3d9bf0-6c4f-4cae-8c0c-920e55ff1b85.gif)
+![device-2022-06-03-023422](https://user-images.githubusercontent.com/103643989/171756161-a253f9ff-bc82-4398-b2a5-68e1677fbfbe.gif)
 
 
 2)Fragment to Dialog Fragment
